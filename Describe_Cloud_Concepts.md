@@ -29,4 +29,30 @@ over the internet
 ## Economies of Scale
 - Cost per unit (service) lowers as the size of the company grows.
 
+## CapEx vs OpEx
+### CapEx
+- Key Characteristics
+    - Own Infrastructure
+    - Big Initial Investment
+    - Lots of maintenance required
+        - Support staff
+        - Power and Networking
+        - Hardware Failures
+        - Others
 
+### OpEx
+- Key Characteristics
+    - Rent infrastructure
+    - No intial investment, pay for what you use
+    - Minimal Maintenance
+        - Operations Team
+
+### Comparison
+**Attributes** | **CapEx** | **OpEx**
+--|--|--
+Upfront Cost | Significant | None
+Ongoing Cost | Low | Based on Usage
+Tax Deduction | Over time | Same year
+Early Termination | No | Anytime
+Maintenance | Significant | Low
+Value over time | Lowers | No change
