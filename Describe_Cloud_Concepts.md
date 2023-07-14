@@ -24,6 +24,9 @@ over the internet
 - **High Availability**:
     - $Availability$ = $\frac{Uptime}{Uptime + Downtime}$ = A measure of system uptime for users/services.
     - **High Availability** is the ability to keep services running for extended periods of time with very little downtime.
-    
+
+
+## Economies of Scale
+- Cost per unit (service) lowers as the size of the company grows.
 
 
