@@ -66,55 +66,102 @@ Cloud computing is a delivery model for services like:
 | Value over time   | Lowers      | No change      |
 
 ## Consumption-Based Model
+
 - Key Characteristics
-    - No upfront cost
-    - No wasted resources
-    - Pay for additional resources when needed
-    - Stop paying at any time
-    - Multiple pricing components per service
-    - Very granular usage measurement
+  - No upfront cost
+  - No wasted resources
+  - Pay for additional resources when needed
+  - Stop paying at any time
+  - Multiple pricing components per service
+  - Very granular usage measurement
 
 ## IaaS vs Paas vs SaaS
+
 ### IaaS
+
 - Key Characteristics
-    - Ownership
-        - Cloud provider manages infrastructure
-            - Infrastructure - networking, hardware & virtualization
-        - You manage platform & software
-            - Platform - operating system, middleware, runtime
-            - Software - data & applications
-    - Use Cases
-        - Migration of workloads
-        - Test & Development
-        - Storage, backups and recovery
-        - E.g. Virtual Machine, Virtual Network, Managed Disk
+  - Ownership
+    - Cloud provider manages infrastructure
+      - Infrastructure - networking, hardware & virtualization
+    - You manage platform & software
+      - Platform - operating system, middleware, runtime
+      - Software - data & applications
+  - Use Cases
+    - Migration of workloads
+    - Test & Development
+    - Storage, backups and recovery
+    - E.g. Virtual Machine, Virtual Network, Managed Disk
 
 ### PaaS
+
 - Key Characteristics
-    - Ownership
-        - Cloud provider manages infrastructure & platform
-            - Infrastructure - networking, hardware & virtualization
-            - Platform - operating system, middleware, runtime
-        - You manage software
-            - Software - data & applications
-    - Use Cases
-        - Development framework
-        - Analytics & business intelligence
-        - Examples:
-            - SQL (for relational databases)
-            - App Service (for web-hosting)
-            - Logic Apps (for enterprise integrations)
-            - Function Apps (for serverless applications) 
+  - Ownership
+    - Cloud provider manages infrastructure & platform
+      - Infrastructure - networking, hardware & virtualization
+      - Platform - operating system, middleware, runtime
+    - You manage software
+      - Software - data & applications
+  - Use Cases
+    - Development framework
+    - Analytics & business intelligence
+    - Examples:
+      - SQL (for relational databases)
+      - App Service (for web-hosting)
+      - Logic Apps (for enterprise integrations)
+      - Function Apps (for serverless applications)
 
 ### SaaS
-- Key Characteristics
-    - Ownership
-        - Cloud provider manages infrastructure, platform & software
-            - Infrastructure - networking, hardware & virtualization
-            - Platform - operating system, middleware, runtime
-            - Software - data & applications
-        - You manage nothing
-    - Use Cases
-        - Buying of-the-shell applications
-        - E.g. OneDrive, Outlook, Skype
 
+- Key Characteristics
+  - Ownership
+    - Cloud provider manages infrastructure, platform & software
+      - Infrastructure - networking, hardware & virtualization
+      - Platform - operating system, middleware, runtime
+      - Software - data & applications
+    - You manage nothing
+  - Use Cases
+    - Buying of-the-shell applications
+    - E.g. OneDrive, Outlook, Skype
+
+## Public, Private & Hybrid Cloud Deployment Models
+
+### Public Cloud
+
+- Key Characteristics
+  - Everything runs on cloud provider hardware
+  - No local hardware
+  - Some services share hardware with other customers
+- Advantages and Disadvantages
+  |**Advantages**|**Disadvantages**|
+  |---|---|
+  |No CapEx| Security & Complaince|
+  |High Availability & Agility| Lack of Ownership|
+  |Pay-as-you-go pricing|Specific scenarios with unique business requirements|
+  |No hardware maintenance| |
+  |No deep technical skills required| |
+
+### Private Cloud
+
+- Key Characteristics
+  - Everything runs on your own datacenter
+  - Self-service should be provided
+  - You maintain all the hardware
+- Advantages & Disadvantages
+  **Advantages**|**Disadvantages**
+  ---|---
+  Can support any scenario | Intial CapEx
+  Control over security | Limited Agility
+  Can meet any security & complaince requirements | IT skills & expertise are mandatory
+
+### Hybrid Cloud
+
+- Key Characteristics
+  - Combines public & private clouds
+  - Great flexibility
+- Advantages & Disadvantages
+  **Advantages**|**Disadvantages**
+  ---|---
+  Great flexibility | Can be more expensive
+  Run legacy apps in private cloud | Complicated to manage
+  Utilize existing infrastructure | IT skills & expertise are mandatory
+  Meet any security requirements |
