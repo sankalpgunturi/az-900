@@ -79,7 +79,7 @@
 
 ### Resources
 
-- Generic object used to represent services in Azure
+- Generic object used to represent purchased services in Azure
 
 #### Key Characteristics
 
@@ -90,6 +90,7 @@
   - APIVersion
   - Name
   - Location
+- Resource Group assignment is required when creating any resource
 
 ### Resource Group
 
