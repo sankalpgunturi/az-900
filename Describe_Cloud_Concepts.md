@@ -13,7 +13,7 @@ Cloud computing is a delivery model for services like:
 - and many more...
   over the internet
 
-### What are the key characteristics of Cloud Computing
+#### Key Characteristics
 
 - **Scalability**: The ability to scale. It is a process of allocating and deallocating resources
   - Types of scaling:
@@ -37,22 +37,24 @@ Cloud computing is a delivery model for services like:
 
 ### CapEx
 
-- Key Characteristics
-  - Own Infrastructure
-  - Big Initial Investment
-  - Lots of maintenance required
-    - Support staff
-    - Power and Networking
-    - Hardware Failures
-    - Others
+#### Key Characteristics
+
+- Own Infrastructure
+- Big Initial Investment
+- Lots of maintenance required
+  - Support staff
+  - Power and Networking
+  - Hardware Failures
+  - Others
 
 ### OpEx
 
-- Key Characteristics
-  - Rent infrastructure
-  - No intial investment, pay for what you use
-  - Minimal Maintenance
-    - Operations Team
+#### Key Characteristics
+
+- Rent infrastructure
+- No intial investment, pay for what you use
+- Minimal Maintenance
+  - Operations Team
 
 ### Comparison
 
@@ -67,70 +69,75 @@ Cloud computing is a delivery model for services like:
 
 ## Consumption-Based Model
 
-- Key Characteristics
-  - No upfront cost
-  - No wasted resources
-  - Pay for additional resources when needed
-  - Stop paying at any time
-  - Multiple pricing components per service
-  - Very granular usage measurement
+#### Key Characteristics
+
+- No upfront cost
+- No wasted resources
+- Pay for additional resources when needed
+- Stop paying at any time
+- Multiple pricing components per service
+- Very granular usage measurement
 
 ## IaaS vs Paas vs SaaS
 
 ### IaaS
 
-- Key Characteristics
-  - Ownership
-    - Cloud provider manages infrastructure
-      - Infrastructure - networking, hardware & virtualization
-    - You manage platform & software
-      - Platform - operating system, middleware, runtime
-      - Software - data & applications
-  - Use Cases
-    - Migration of workloads
-    - Test & Development
-    - Storage, backups and recovery
-    - E.g. Virtual Machine, Virtual Network, Managed Disk
+#### Key Characteristics
+
+- Ownership
+  - Cloud provider manages infrastructure
+    - Infrastructure - networking, hardware & virtualization
+  - You manage platform & software
+    - Platform - operating system, middleware, runtime
+    - Software - data & applications
+- Use Cases
+  - Migration of workloads
+  - Test & Development
+  - Storage, backups and recovery
+  - E.g. Virtual Machine, Virtual Network, Managed Disk
 
 ### PaaS
 
-- Key Characteristics
-  - Ownership
-    - Cloud provider manages infrastructure & platform
-      - Infrastructure - networking, hardware & virtualization
-      - Platform - operating system, middleware, runtime
-    - You manage software
-      - Software - data & applications
-  - Use Cases
-    - Development framework
-    - Analytics & business intelligence
-    - Examples:
-      - SQL (for relational databases)
-      - App Service (for web-hosting)
-      - Logic Apps (for enterprise integrations)
-      - Function Apps (for serverless applications)
+#### Key Characteristics
+
+- Ownership
+  - Cloud provider manages infrastructure & platform
+    - Infrastructure - networking, hardware & virtualization
+    - Platform - operating system, middleware, runtime
+  - You manage software
+    - Software - data & applications
+- Use Cases
+  - Development framework
+  - Analytics & business intelligence
+  - Examples:
+    - SQL (for relational databases)
+    - App Service (for web-hosting)
+    - Logic Apps (for enterprise integrations)
+    - Function Apps (for serverless applications)
 
 ### SaaS
 
-- Key Characteristics
-  - Ownership
-    - Cloud provider manages infrastructure, platform & software
-      - Infrastructure - networking, hardware & virtualization
-      - Platform - operating system, middleware, runtime
-      - Software - data & applications
-    - You manage nothing
-  - Use Cases
-    - Buying of-the-shell applications
-    - E.g. OneDrive, Outlook, Skype
+#### Key Characteristics
+
+- Ownership
+  - Cloud provider manages infrastructure, platform & software
+    - Infrastructure - networking, hardware & virtualization
+    - Platform - operating system, middleware, runtime
+    - Software - data & applications
+  - You manage nothing
+- Use Cases
+  - Buying of-the-shell applications
+  - E.g. OneDrive, Outlook, Skype
 
 ## Public, Private & Hybrid Cloud Deployment Models
 
 ### Public Cloud
 
-- Key Characteristics
-  - Everything runs on cloud provider hardware
-  - No local hardware
-  - Some services share hardware with other customers
+#### Key Characteristics
+
+- Everything runs on cloud provider hardware
+- No local hardware
+- Some services share hardware with other customers
 - Advantages and Disadvantages
   |**Advantages**|**Disadvantages**|
   |---|---|
@@ -142,10 +149,11 @@ Cloud computing is a delivery model for services like:
 
 ### Private Cloud
 
-- Key Characteristics
-  - Everything runs on your own datacenter
-  - Self-service should be provided
-  - You maintain all the hardware
+#### Key Characteristics
+
+- Everything runs on your own datacenter
+- Self-service should be provided
+- You maintain all the hardware
 - Advantages & Disadvantages
   **Advantages**|**Disadvantages**
   ---|---
@@ -155,9 +163,10 @@ Cloud computing is a delivery model for services like:
 
 ### Hybrid Cloud
 
-- Key Characteristics
-  - Combines public & private clouds
-  - Great flexibility
+#### Key Characteristics
+
+- Combines public & private clouds
+- Great flexibility
 - Advantages & Disadvantages
   **Advantages**|**Disadvantages**
   ---|---
