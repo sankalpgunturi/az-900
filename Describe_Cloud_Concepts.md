@@ -73,4 +73,48 @@ Cloud computing is a delivery model for services like:
     - Stop paying at any time
     - Multiple pricing components per service
     - Very granular usage measurement
-    
+
+## IaaS vs Paas vs SaaS
+### IaaS
+- Key Characteristics
+    - Ownership
+        - Cloud provider manages infrastructure
+            - Infrastructure - networking, hardware & virtualization
+        - You manage platform & software
+            - Platform - operating system, middleware, runtime
+            - Software - data & applications
+    - Use Cases
+        - Migration of workloads
+        - Test & Development
+        - Storage, backups and recovery
+        - E.g. Virtual Machine, Virtual Network, Managed Disk
+
+### PaaS
+- Key Characteristics
+    - Ownership
+        - Cloud provider manages infrastructure & platform
+            - Infrastructure - networking, hardware & virtualization
+            - Platform - operating system, middleware, runtime
+        - You manage software
+            - Software - data & applications
+    - Use Cases
+        - Development framework
+        - Analytics & business intelligence
+        - Examples:
+            - SQL (for relational databases)
+            - App Service (for web-hosting)
+            - Logic Apps (for enterprise integrations)
+            - Function Apps (for serverless applications) 
+
+### SaaS
+- Key Characteristics
+    - Ownership
+        - Cloud provider manages infrastructure, platform & software
+            - Infrastructure - networking, hardware & virtualization
+            - Platform - operating system, middleware, runtime
+            - Software - data & applications
+        - You manage nothing
+    - Use Cases
+        - Buying of-the-shell applications
+        - E.g. OneDrive, Outlook, Skype
+
