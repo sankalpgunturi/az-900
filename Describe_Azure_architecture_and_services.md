@@ -23,7 +23,7 @@
   - One but usually more datacenters connected with low latency network (<2 milliseconds)
   - Location for your services
   - Some services are available only in certain regions
-  - Some services are ~global services~, as such are not assigned/deployed in specific region (E.g. Traffic Manager for DNS routing, Azure Active Directory)
+  - Some services are *global services*, as such are not assigned/deployed in specific region (E.g. Traffic Manager for DNS routing, Azure Active Directory)
   - Globally available with 50+ regions
   - Special government regions (US DoD Central, US Gov Virginia, etc.)
   - Special partnered regions (China East, China North)
@@ -131,3 +131,98 @@
   - CLI
   - SDKs
 - Controls access and resources
+
+## Azure Compute Services
+Category of on-demand services used to run cloud-based applications
+
+### Virtualization (Azure Virtual Machine)
+#### Key Characteristics
+- Emulation of physical machines
+- Different virtual hardware configuration per machine/app
+- Different operating system per machine/app
+- Total separation of environments
+  - file systems,
+  - services,
+  - ports,
+  - middleware,
+  - configuration
+- Infrastructure-as-a-Service (IaaS)
+- Total control over the operating system and the software
+- Supports Microsoft marketplace and custom images
+- Best suited for
+  - Custom software requiring custom system configuration
+  - Lift-and-Shift scenarios
+- Can run any application/scenario
+  - web apps & web services,
+  - databases,
+  - desktop applications,
+  - jumpboxes,
+  - gateways, etc.
+
+### Virtual Machine Scale Sets (Azure Virtual Machine Scale Sets)
+#### Key Characteristics
+- Infrastructure-as-a-Service (IaaS)
+- Set of identical virtual machines connected with a load balancer
+- Built-in auto scaling features
+- Designed for manual and auto-scaled workloads like web services, batch processing, etc.
+
+### Containers
+#### Key Characteristics
+- Use host's operating system
+- Emulate operating system (VMs emulate hardware)
+- Lightweight (no OS)
+  - Development Effort
+  - Maintenance
+  - Compute & storage requirements
+
+#### Azure Container Instances
+- Platform-as-a-Service (PaaS)
+- Simplest and fastest way to run a container in Azure
+- Serverless Containers
+- Container groups contains containers
+- Designed for
+  - Small and simple web apps/services
+  - Background jobs
+  - Scheduled scripts
+ 
+#### Aure Kubernetes Services (AKS)
+- Platform-as-a-Service (PaaS)
+- Open-source container orchestration platform
+- Highly scalable and customizable
+- Designed for high scale container deployments (anything really!)
+- One container in one node (VM) - Multiple nodes connected to Load Balancer
+
+### App Services
+#### Key Characteristics
+- Platform-as-a-Service (PaaS)
+- Designed as enterprise grade web application service
+- Supports multiple programming languages and containers
+
+### Azure Functions (Function apps)
+#### Key Characteristics
+- Platform-as-a-Service (PaaS)
+- Serverless
+- Two hosting/pricing models
+  - Consumption-based plan
+  - Dedicated plan
+- Designed for micro/nano services
+
+### The Comparison
+Service | Config Control/Maintenance | Autoscaling | Min Nodes | Max Nodes | Scalability
+---|:---:|:---:|:---:|:---:|:---:
+Virtual Machines | :star: :star: :star: :star: :star: | No | 1 | 1 | :star:
+VM Scale Sets | :star: :star: :star: :star: :star: | Yes | 1 | 1000/600 | :star: :star: :star: :star: :star: 
+Container Instances | :star: :star: :star: | No | 0 | 20 | :star: :star:
+Kubernetes Service | :star: :star: :star: :star: | Yes | 3 | 100 | :star: :star: :star: :star: 
+App Service | :star: :star: | Yes | 1 | 20/100 | :star: :star: :star:
+Functions | :star: | Yes | 0 | 200 | :star: :star: :star: :star:
+
+### Summary
+Azure Compute Service | Type | Requirement
+---|:---:|---
+Virtual Machines | IaaS | Custom Software, custom requirements, very specialized, high degree of control
+VM Scale Sets | IaaS | Auto-scaled workloads for VMs
+Container Instances | PaaS | Simple container hosting, easy to start
+Kubernetes Service | PaaS | Highly scalable and customizable container hosting platform
+App Services | PaaS | Web applications, a lot of enterprise web hosting features, easy to start
+Functions | PaaS | (Function-as-a-Service/Serverless) Micro/Nano services, excellent consumption-based pricing, easy to start
