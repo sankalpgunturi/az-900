@@ -226,3 +226,50 @@ Container Instances | PaaS | Simple container hosting, easy to start
 Kubernetes Service | PaaS | Highly scalable and customizable container hosting platform
 App Services | PaaS | Web applications, a lot of enterprise web hosting features, easy to start
 Functions | PaaS | (Function-as-a-Service/Serverless) Micro/Nano services, excellent consumption-based pricing, easy to start
+
+## Azure Networking Services
+### Networking Services
+Category of services with capability to
+- Connect cloud and on-premise resources
+- Protect & monitor services
+- Help with application delivery
+
+### Azure Virtual Network
+#### Key Characteristics
+- Emulation of physical networking infrastructure
+- Designed for isolation, segmentation, communication, filtering, routing between resources (internet and on-premises)
+- Scoped to a single region
+- VNet Peering or VPN Gateway allow cross VNet communication
+- Segmented into one or more subnets
+- Subnets are discrete sections used for
+  - effective address allocation and
+  - network filtering via Network Security Groups (NSGs) or Application Security Groups (ASG)
+
+### Azure VPN Gateway
+#### Key Characteristics
+- On-premises to Azure traffic over the public internet (encrypted)
+- Cross-regional communication of Azure Virtual Networks
+  - VNet Peering vs VPN Gateway should be chosen based on organization needs
+
+### Azure Load Balancer
+#### Key Characteristics
+- Even traffic distribution
+- Supports both inbound and outbound scenarios
+- High-availability and scalability scenarios
+- Supports both TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) applications
+- External and Internal traffic
+
+### Azure Application Gateway
+#### Key Characteristics
+- Web Traffic load balancer
+- Web application firewall
+- Redirection
+- Session affinity
+- URL Routing
+- SSL Termination
+
+### Azure Content Delivery Network
+#### Key Characteristics
+- Deliver static web content to users
+- Minimize Latency
+- POP (points of presence) locations
